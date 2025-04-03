@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeee;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cv-page {
+    width: 65%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
