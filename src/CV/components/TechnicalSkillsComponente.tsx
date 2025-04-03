@@ -1,7 +1,9 @@
+import { TechnicalSkill } from "../../interfaces";
 
-
-export const TechnicalSkillsComponente = () => {
-  return (
-    <div>TechnicalSkillsComponente</div>
-  )
+interface TechnicalSkillsProps {
+  technicalSkills: TechnicalSkill[];
 }
+
+export const TechnicalSkillsComponente = ({technicalSkills}: TechnicalSkillsProps) => {
+  return <div>TechnicalSkillsComponente</div>;
+};

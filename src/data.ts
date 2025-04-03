@@ -1,4 +1,4 @@
-{
+export const data = {
   "about": {
     "name": "David Gustavo Ventura Villesca",
     "email": "david38ing@gmail.com",

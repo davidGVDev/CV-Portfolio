@@ -1,7 +1,9 @@
+import { SoftSkill } from "../../interfaces";
 
-
-export const SoftSkillsComponent = () => {
-  return (
-    <div>SoftSkillsComponent</div>
-  )
+interface SoftSkillsProps {
+  softSkills: SoftSkill[];
 }
+
+export const SoftSkillsComponent = ({ softSkills }: SoftSkillsProps) => {
+  return <div>SoftSkillsComponent</div>;
+};
