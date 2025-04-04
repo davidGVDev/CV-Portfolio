@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Reem+Kufi:wght@400..700&family=Tektur:wght@400..900&display=swap');
+
+:root {
+    --primary-color: #a9b5df;
+    --secondary-color: #7886c7;
+    --third-color: #414996;
+
+    --font-reem: "Reem Kufi", serif;
+    --font-tektur: "Tektur", serif;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .cv-page {
@@ -16,7 +28,7 @@ body {
     height: 100%;
     background-color: #fff;
     border-radius: 5px;
-    margin: 40px 0 0 0;
+    margin: 40px 0 40px 0;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }

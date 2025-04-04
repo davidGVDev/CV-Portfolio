@@ -3,9 +3,10 @@ export const data = {
     "name": "David Gustavo Ventura Villesca",
     "email": "david38ing@gmail.com",
     "phone": "55 8781 5134",
+    "country": "México - CDMX",
     "linkedin": "https://www.linkedin.com/in/david-gustavo-ventura-villesca-2a158615b/",
     "github": "https://github.com/davidGVDev",
-    "about": "Soy un desarrollador apasionado por el desarrollo web enfocado en el Frontend y Backend, con una mentalidad analítica y enfocada en la resolución de problemas. Me destaco por mi capacidad de adaptación, toma de decisiones proactiva y confianza en mi trabajo, tanto de manera individual como en equipo.Me defino como una persona disciplinada, creativa, responsable y honesta, siempre en busca de mejorar mis habilidades y aprender nuevas tecnologías.",
+    "description": "Soy un desarrollador apasionado por el desarrollo web enfocado en el Frontend y Backend, con una mentalidad analítica y enfocada en la resolución de problemas. Me destaco por mi capacidad de adaptación, toma de decisiones proactiva y confianza en mi trabajo, tanto de manera individual como en equipo.Me defino como una persona disciplinada, creativa, responsable y honesta, siempre en busca de mejorar mis habilidades y aprender nuevas tecnologías.",
     "languages": "Inglés - B2"
   },
   "education": {
@@ -33,7 +34,7 @@ export const data = {
       ]
     },
     {
-      "company": "Lgec Sistemas de integración y enlace",
+      "company": "Lgec - Sistemas de integración y enlace",
       "position": "Desarrollador Jr",
       "startDate": "Abr-2023",
       "endDate": "Mar-2024",
@@ -52,97 +53,97 @@ export const data = {
   "technicalSkills": [
     {
       "alt": "HTML",
-      "path": "../../../assets/img/logos/html.png",
+      "path": "/img/logos/html.png",
       "name": "HTML"
     },
     {
       "alt": "CSS",
-      "path": "../../../assets/img/logos/css.png",
+      "path": "/img/logos/css.png",
       "name": "CSS"
     },
     {
       "alt": "Js",
-      "path": "../../../assets/img/logos/javaScript.png",
+      "path": "/img/logos/javaScript.png",
       "name": "JavaScript"
     },
     {
       "alt": "Ts",
-      "path": "../../../assets/img/logos/typeScript.png",
+      "path": "/img/logos/typeScript.png",
       "name": "TypeScript"
     },
     {
       "alt": "Bootstrap",
-      "path": "../../../assets/img/logos/bootstrap.png",
+      "path": "/img/logos/bootstrap.png",
       "name": "Bootstrap"
     },
     {
       "alt": "Angular",
-      "path": "../../../assets/img/logos/angular.png",
+      "path": "/img/logos/angular.png",
       "name": "Angular"
     },
     {
       "alt": "Docker",
-      "path": "../../../assets/img/logos/docker.png",
+      "path": "/img/logos/docker.png",
       "name": "Docker"
     },
     {
       "alt": "Nodejs",
-      "path": "../../../assets/img/logos/nodejs.png",
+      "path": "/img/logos/nodejs.png",
       "name": "Nodejs"
     },
     {
       "alt": "Git",
-      "path": "../../../assets/img/logos/git.png",
+      "path": "/img/logos/git.png",
       "name": "Git"
     },
     {
       "alt": "GitHub",
-      "path": "../../../assets/img/logos/github.png",
+      "path": "/img/logos/github.png",
       "name": "GitHub"
     },
     {
       "alt": "mySQL",
-      "path": "../../../assets/img/logos/mysql.png",
+      "path": "/img/logos/mysql.png",
       "name": "mySQL"
     },
     {
       "alt": "PostgreSQL",
-      "path": "../../../assets/img/logos/postgresql.png",
+      "path": "/img/logos/postgresql.png",
       "name": "PostgreSQL"
     },
     {
       "alt": "Electronjs",
-      "path": "../../../assets/img/logos/electron.png",
+      "path": "/img/logos/electron.png",
       "name": "Electronjs"
     },
     {
       "alt": "react",
-      "path": "../../../assets/img/logos/react.png",
+      "path": "/img/logos/react.png",
       "name": "React"
     },
     {
       "alt": "redux",
-      "path": "../../../assets/img/logos/redux.png",
+      "path": "/img/logos/redux.png",
       "name": "Redux"
     },
     {
       "alt": "oracle-weblogic",
-      "path": "../../../assets/img/logos/oracle-weblogic.png",
+      "path": "/img/logos/oracle-weblogic.png",
       "name": "Oracle WebLogic"
     },
     {
       "alt": "websphere",
-      "path": "../../../assets/img/logos/websphere.png",
+      "path": "/img/logos/websphere.png",
       "name": "WebSphere"
     },
     {
       "alt": "jboss",
-      "path": "../../../assets/img/logos/jboss.png",
+      "path": "/img/logos/jboss.png",
       "name": "JBoss"
     },
     {
       "alt": "Vscode",
-      "path": "../../../assets/img/logos/vscode.png",
+      "path": "/img/logos/vscode.png",
       "name": "VSCode"
     }
   ],

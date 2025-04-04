@@ -1,30 +1,63 @@
-# React + TypeScript + Vite
+# 🎯 CV Portfolio App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación moderna de portafolio personal construida con React y TypeScript.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) React 18
+- ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) TypeScript
+- ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) Vite
+- 📦 Phosphor Icons
 
-## Expanding the ESLint configuration
+## 🛠️ Requisitos Previos
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Node.js (versión 14 o superior)
+- npm o yarn
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Instalación
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Clona el repositorio:
+```bash
+git clone [URL-del-repositorio]
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Instala las dependencias:
+```bash
+npm install
+# o
+yarn install
+```
+
+3. Inicia el servidor de desarrollo:
+```bash
+npm run dev
+# o
+yarn dev
+```
+
+## 📝 Scripts Disponibles
+
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm run lint` - Ejecuta el linter
+- `npm run preview` - Vista previa de la build de producción
+
+## 🎨 Características
+
+- ⚡️ Desarrollo rápido con Vite
+- 📱 Diseño responsivo
+- 🎭 Iconos modernos con Phosphor Icons
+- 🔍 TypeScript para un código más seguro
+- 📦 ESLint configurado para mejores prácticas
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT.
+
+## 👥 Contribuir
+
+Las contribuciones son siempre bienvenidas. Por favor, lee las guías de contribución antes de enviar un pull request.
+
+---
+⌨️ con ❤️ por David Gustavo Ventura Villesca
+

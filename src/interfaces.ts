@@ -4,8 +4,9 @@ interface About {
   phone: string;
   linkedin: string;
   github: string;
-  about: string;
   languages: string;
+  country: string;
+  description: string;
 }
 
 interface Education {

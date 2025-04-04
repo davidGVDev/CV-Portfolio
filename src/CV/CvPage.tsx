@@ -42,7 +42,7 @@ export const CvPage = () => {
       <ExperienceComponent experience={experience} />
       <TechnicalSkillsComponente technicalSkills={technicalSkills} />
       <SoftSkillsComponent softSkills={softSkills} />
-      <CoursesComponent courses={courses} />
+      {/* <CoursesComponent courses={courses} /> */}
     </>
   );
 };
