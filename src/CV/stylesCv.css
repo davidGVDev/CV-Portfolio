@@ -1,4 +1,23 @@
-.about-name{
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeee;
+}
+
+.cv-page {
+    width: 55%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 40px 0 40px 0;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* About */
+
+.about-name {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -7,7 +26,7 @@
     font-weight: 100;
 }
 
-.about-contact{
+.about-contact {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -20,7 +39,7 @@
     font-size: 1rem;
 }
 
-.about-contact a{
+.about-contact a {
     text-decoration: none;
     color: var(--color-primary);
     display: flex;
@@ -30,28 +49,30 @@
     border-radius: 5px;
 }
 
-.about-github-link{
+.about-github-link {
     background-color: black;
 }
-.about-github-link-text{
+
+.about-github-link-text {
     color: white;
 }
 
-.about-linkedin-link{
+.about-linkedin-link {
     background-color: #0077b5;
 }
-.about-linkedin-link-text{
+
+.about-linkedin-link-text {
     color: white;
 }
 
-.about-description{
+.about-description {
     font-family: var(--font-reem);
     font-size: 1rem;
     text-align: justify;
     padding: 0 10px;
 }
 
-.about-description-title{
+.about-description-title {
     font-family: var(--font-tektur);
     font-size: 1.5rem;
     font-weight: 100;
@@ -59,16 +80,17 @@
     margin: 10px 0;
     padding: 0;
 }
+
 /* Eductation */
 
-.education-title{
+.education-title {
     font-family: var(--font-tektur);
     font-size: 1.5rem;
     font-weight: 100;
     text-align: center;
 }
 
-.education-list{
+.education-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -78,86 +100,86 @@
     gap: 10px;
 }
 
-.education-list li{
+.education-list li {
     font-family: var(--font-reem);
     font-size: 1rem;
 }
 
-.education-list-institution-title{
+.education-list-institution-title {
     font-weight: 100;
 }
 
-.education-list-institution{
+.education-list-institution {
     font-weight: 700;
 }
 
-.education-list-degree-title{
+.education-list-degree-title {
     font-weight: 100;
 }
 
-.education-list-degree{
+.education-list-degree {
     font-weight: 700;
 }
 
-.education-list-date-title{
+.education-list-date-title {
     font-weight: 100;
 }
 
-.education-list-date{
+.education-list-date {
     font-weight: 700;
 }
 
 /* Experience */
 
-.experience-title{
+.experience-title {
     font-family: var(--font-tektur);
     font-size: 1.5rem;
     font-weight: 100;
     text-align: center;
 }
 
-.experience-data{
+.experience-data {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.experience-company-title{
+.experience-company-title {
     font-family: var(--font-reem);
     font-size: 1rem;
     font-weight: 700;
 }
 
-.experience-company{
+.experience-company {
     font-family: var(--font-reem);
     font-size: 1rem;
     font-weight: 100;
 }
 
-.experience-dates{
+.experience-dates {
     font-family: var(--font-reem);
 }
 
-.experience-position{
+.experience-position {
     font-family: var(--font-reem);
     font-size: 1rem;
     font-weight: 900;
     text-decoration: underline;
 }
 
-.experience-position-data{
+.experience-position-data {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.experience-position-title{
+.experience-position-title {
     font-family: var(--font-reem);
     font-size: 1rem;
     font-weight: 100;
 }
 
-.experience-responsibilities{
+.experience-responsibilities {
     font-family: var(--font-reem);
     font-size: 1rem;
     font-weight: 100;
@@ -165,21 +187,21 @@
 
 /* Technical Skills */
 
-.technical-skills-title{
+.technical-skills-title {
     font-family: var(--font-tektur);
     font-size: 1.5rem;
     font-weight: 100;
     text-align: center;
 }
 
-.technical-skills-container{
+.technical-skills-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 10px;
 }
 
-.technical-skill{
+.technical-skill {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -189,12 +211,12 @@
     border-radius: 10px;
 }
 
-.technical-skill-icon img{
+.technical-skill-icon img {
     width: 60px;
     height: 60px;
 }
 
-.technical-skill-name{
+.technical-skill-name {
     font-family: var(--font-reem);
     font-size: 1rem;
     font-weight: 100;
@@ -202,21 +224,21 @@
 
 /* Soft Skills */
 
-.soft-skills-title{
+.soft-skills-title {
     font-family: var(--font-tektur);
     font-size: 1.5rem;
     font-weight: 100;
     text-align: center;
 }
 
-.soft-skills-container{
+.soft-skills-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 10px;
 }
 
-.soft-skill{
+.soft-skill {
     font-family: var(--font-reem);
     font-size: 1rem;
     font-weight: 100;

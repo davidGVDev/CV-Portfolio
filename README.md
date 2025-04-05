@@ -1,12 +1,13 @@
 # 🎯 CV Portfolio App
 
-Una aplicación moderna de portafolio personal construida con React y TypeScript.
+Una aplicación moderna de portafolio personal construida con React y TypeScript, que combina un CV interactivo y un portafolio de proyectos.
 
 ## 🚀 Tecnologías Utilizadas
 
 - ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) React 18
 - ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) TypeScript
 - ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) Vite
+- ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) React Router v7
 - 📦 Phosphor Icons
 
 ## 🛠️ Requisitos Previos
@@ -49,6 +50,21 @@ yarn dev
 - 🎭 Iconos modernos con Phosphor Icons
 - 🔍 TypeScript para un código más seguro
 - 📦 ESLint configurado para mejores prácticas
+- 🔄 React Router para navegación
+- 📄 CV interactivo y portafolio integrados
+- 🎨 Estilos CSS modernos
+
+## 📁 Estructura del Proyecto
+
+```
+src/
+├── CV/           # Componentes del CV
+├── portfolio/    # Componentes del portafolio
+├── router/       # Configuración de rutas
+├── data.ts       # Datos del CV y portafolio
+├── interfaces.ts # Interfaces de TypeScript
+└── styles.css    # Estilos globales
+```
 
 ## 📄 Licencia
 

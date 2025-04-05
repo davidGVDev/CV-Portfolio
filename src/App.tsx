@@ -1,13 +1,10 @@
-import { CvPage } from "./CV/CvPage";
+import { BrowserRouter } from "react-router-dom";
+import { AppRouter } from "./router/AppRoueter";
 
 export const App = () => {
   return (
-    <>
-      <div className="app-container">
-        <div className="cv-page">
-          <CvPage/>
-        </div>
-      </div>
-    </>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 };

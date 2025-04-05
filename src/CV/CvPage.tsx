@@ -1,11 +1,10 @@
-import "./styles.css";
+import "./stylesCv.css";
 import {
   AboutComponent,
   EducationComponent,
   ExperienceComponent,
   SoftSkillsComponent,
   TechnicalSkillsComponente,
-  CoursesComponent,
 } from "./components";
 import { data } from "../data";
 import {
@@ -14,7 +13,6 @@ import {
   Experience,
   TechnicalSkill,
   SoftSkill,
-  Course,
 } from "../interfaces";
 
 interface Data {
@@ -23,7 +21,6 @@ interface Data {
   experience: Experience[];
   technicalSkills: TechnicalSkill[];
   softSkills: SoftSkill[];
-  courses: Course[];
 }
 
 export const CvPage = () => {
@@ -32,17 +29,17 @@ export const CvPage = () => {
     education,
     experience,
     technicalSkills,
-    softSkills,
-    courses,
+    softSkills
   }: Data = data;
   return (
-    <>
-      <AboutComponent about={about} />
-      <EducationComponent education={education} />
-      <ExperienceComponent experience={experience} />
-      <TechnicalSkillsComponente technicalSkills={technicalSkills} />
-      <SoftSkillsComponent softSkills={softSkills} />
-      {/* <CoursesComponent courses={courses} /> */}
-    </>
+    <div className="app-container">
+      <div className="cv-page">
+        <AboutComponent about={about} />
+        <EducationComponent education={education} />
+        <ExperienceComponent experience={experience} />
+        <TechnicalSkillsComponente technicalSkills={technicalSkills} />
+        <SoftSkillsComponent softSkills={softSkills} />
+      </div>
+    </div>
   );
 };
