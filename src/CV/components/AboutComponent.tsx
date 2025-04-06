@@ -11,7 +11,7 @@ export const AboutComponent = ({ about }: AboutProps) => {
     <>
       <p className="about-name">{about.name}</p>
       <hr />
-      <ul className="about-contact">
+      <ul className="about-contact mt-4">
         <li>
           Correo: <span className="about-contact-email">{email}</span>
         </li>

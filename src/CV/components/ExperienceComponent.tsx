@@ -22,7 +22,7 @@ export const ExperienceComponent = ({ experience }: ExperienceProps) => {
             <div className="experience-position">{exp.position}</div>
           </div>
 
-          <ul className="experience-responsibilities">
+          <ul className="list-disc experience-responsibilities">
             {exp.responsibilities.map((responsibility) => (
               <li key={responsibility}>{responsibility}</li>
             ))}
