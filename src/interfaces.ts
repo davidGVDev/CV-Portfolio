@@ -6,7 +6,11 @@ interface About {
   github: string;
   languages: string;
   country: string;
-  description: string;
+  description: {
+    p1: string;
+    p2: string;
+    p3: string;
+  }[];
 }
 
 interface Education {

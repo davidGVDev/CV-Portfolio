@@ -44,7 +44,9 @@ export const AboutComponent = ({ about }: AboutProps) => {
         </a>
       </ul>
       <h2 className="about-description-title">Acerca de mí</h2>
-      <p className="about-description">{description}</p>
+      <p className="about-description">{description[0].p1}</p>
+      <p className="about-description">{description[0].p2}</p>
+      <p className="about-description">{description[0].p3}</p>
     </>
   );
 };

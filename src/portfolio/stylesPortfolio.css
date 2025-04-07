@@ -1,4 +1,3 @@
-
 /* NavBar */
 .navbar {
     width: 100%;
@@ -6,7 +5,7 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .navbar-links {
@@ -28,4 +27,101 @@
 
 .navbar-links a:hover {
     background-color: #f0f0f0;
+}
+
+/* Flickering Grid */
+.flickering-grid {
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: absolute;
+    z-index: -1;
+}
+
+/* About Container */
+.about-container-p {
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+}
+
+.about-content-p {
+    width: 800px;
+    height: 700px;
+    margin: 30px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.6;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.about-description-p {
+    width: 700px;
+    height: auto;
+    margin: 30px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.6;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.about-title-p {
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: var(--font-tektur);
+    color: black;
+}
+
+.about-title-p-span {
+    font-weight: 800;
+}
+
+.aurora-text {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: var(--font-reem);
+}
+
+.about-description-p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: var(--font-reem);
+}
+
+.about-me-description-p {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: var(--font-reem);
+}
+
+.about-contact-p {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-github-link {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-linkedin-link {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
 }
