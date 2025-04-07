@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "../stylesPortfolio.css";
 export const NavBar = () => {
   return (
-    <div className="navbar p-10">
+    <div className="navbar">
       <div className="navbar-links">
         <Link to="/portfolio/about">Acerca de mi</Link>
         <Link to="/portfolio/courses">Cursos</Link>
