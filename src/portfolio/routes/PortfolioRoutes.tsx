@@ -2,11 +2,10 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import {
   AboutComponentP,
   CoursesComponentP,
-  EducationComponentP,
   ExperienceComponentP,
-  TechnicalSkillsComponentP,
-  SoftSkillsComponentP,
   NavBar,
+  SkillsComponentP,
+  ProyectsComponentP,
 } from "../components";
 
 export const PortfolioRoutes = () => {
@@ -15,14 +14,10 @@ export const PortfolioRoutes = () => {
       <NavBar />
       <Routes>
         <Route path="/about" element={<AboutComponentP />} />
-        <Route path="/courses" element={<CoursesComponentP />} />
-        <Route path="/education" element={<EducationComponentP />} />
+        <Route path="/skills" element={<SkillsComponentP />} />
         <Route path="/experience" element={<ExperienceComponentP />} />
-        <Route
-          path="/technical-skills"
-          element={<TechnicalSkillsComponentP />}
-        />
-        <Route path="/soft-skills" element={<SoftSkillsComponentP />} />
+        <Route path="/courses" element={<CoursesComponentP />} />
+        <Route path="/proyects" element={<ProyectsComponentP />} />
         <Route path="*" element={<Navigate to="/portfolio/about" />} />
       </Routes>
     </>
