@@ -260,7 +260,7 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    
+
 }
 
 .experience-item-header {
@@ -282,3 +282,300 @@
     font-size: 1rem;
     line-height: 1.5;
 }
+
+/* Courses Component */
+.courses-container {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.courses-container-udemy,
+.courses-container-oracle {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.courses-container h3 {
+    font-family: var(--font-tektur);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.courses-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.course-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    height: 100px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+}
+
+.course-item:hover {
+    transform: translateX(5px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.course-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.course-item span {
+    font-family: var(--font-reem);
+    font-size: 1rem;
+    flex: 1;
+}
+
+/* Media Queries para Courses Container */
+@media screen and (max-width: 1024px) {
+    .courses-container {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .courses-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .course-item img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .courses-container {
+        padding: 20px;
+    }
+
+    .courses-list {
+        grid-template-columns: 1fr;
+    }
+
+    .course-item span {
+        font-size: 0.9rem;
+    }
+}
+
+.course-image-container {
+    width: 900px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.course-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Proyects Component */
+.proyects-container {
+    width: 100%;
+    height: calc(90vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    position: relative;
+}
+
+.proyects-container-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.proyects-container-title {
+    font-family: var(--font-tektur);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.proyect-image {
+    width: auto;
+    height: 500px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+/* Estilos del Carrusel */
+.carousel {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.carousel-content {
+    margin: 0 40px;
+}
+
+/* Estilos para los botones de navegación */
+.carousel-prev-button,
+.carousel-next-button {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: all 0.3s ease;
+}
+
+.carousel-prev-button:hover,
+.carousel-next-button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-prev-button {
+    left: 100px;
+}
+
+.carousel-next-button {
+    right: 100px;
+}
+
+/* Media Queries para el carrusel */
+@media screen and (max-width: 1400px) {
+    .carousel-prev-button {
+        left: 100px;
+    }
+    
+    .carousel-next-button {
+        right: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .proyects-container {
+        padding: 0 30px;
+    }
+
+    .proyect-image {
+        height: 400px;
+    }
+
+    .carousel-prev-button {
+        left: 50px;
+    }
+    
+    .carousel-next-button {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .proyects-container {
+        padding: 0 20px;
+    }
+
+    .proyect-image {
+        height: 300px;
+    }
+
+    .carousel-prev-button,
+    .carousel-next-button {
+        width: 35px;
+        height: 35px;
+    }
+
+    .carousel-prev-button {
+        left: 10px;
+    }
+    
+    .carousel-next-button {
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .proyects-container {
+        padding: 0 10px;
+    }
+
+    .proyect-image {
+        height: 250px;
+    }
+
+    .carousel-content {
+        margin: 0 20px;
+    }
+
+    .carousel-prev-button,
+    .carousel-next-button {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Estilos para los indicadores del carrusel */
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.carousel-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.carousel-indicator.active {
+    background-color: #000;
+    transform: scale(1.2);
+}
+
+/* Media queries para los indicadores */
+@media screen and (max-width: 768px) {
+    .carousel-indicators {
+        bottom: 10px;
+    }
+
+    .carousel-indicator {
+        width: 8px;
+        height: 8px;
+    }
+}
+

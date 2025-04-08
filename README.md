@@ -9,7 +9,12 @@ Una aplicación moderna de portafolio personal construida con React y TypeScript
 - ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) Vite
 - ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) React Router v7
 - ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) TailwindCSS
-- 📦 Phosphor Icons
+- 🎨 Radix UI
+- 🎠 Embla Carousel
+- ✨ Lucide Icons
+- 🎭 Phosphor Icons
+- 🌈 Class Variance Authority
+- 🎯 Motion
 
 ## 🛠️ Requisitos Previos
 
@@ -41,7 +46,7 @@ yarn dev
 
 ## 📝 Scripts Disponibles
 
-- `npm run dev` - Inicia el servidor de desarrollo en modo desarrollo
+- `npm run dev` - Inicia el servidor de desarrollo
 - `npm run build` - Construye la aplicación para producción
 - `npm run lint` - Ejecuta ESLint para verificar el código
 - `npm run preview` - Vista previa de la build de producción
@@ -49,28 +54,36 @@ yarn dev
 
 ## 🎨 Características
 
-- ⚡️ Desarrollo rápido con Vite
-- 📱 Diseño responsivo y adaptable a todos los dispositivos
-- 🎭 Iconos modernos con Phosphor Icons
-- 🔍 TypeScript para un código más seguro y mantenible
-- 📦 ESLint y Prettier configurados para mejores prácticas
-- 🔄 React Router para navegación fluida
-- 📄 CV interactivo con secciones detalladas
-- 🎨 Estilos con TailwindCSS para un diseño moderno
-- 📱 Optimizado para SEO
-- 🚀 Despliegue continuo configurado
+- ⚡️ Desarrollo rápido con Vite y Hot Module Replacement
+- 📱 Diseño responsivo con TailwindCSS
+- 🎭 Componentes interactivos con Radix UI
+- 🎠 Carruseles suaves con Embla Carousel
+- 🎨 Iconografía moderna con Lucide y Phosphor Icons
+- 🔍 TypeScript para código seguro y autocompletado
+- 🎯 Animaciones fluidas con Motion
+- 🎨 Variantes de componentes con Class Variance Authority
+- 📦 ESLint y Prettier para código limpio
+- 🔄 Navegación SPA con React Router v7
+- 📄 CV interactivo con diseño moderno
+- 🚀 Optimizado para rendimiento y SEO
 
 ## 📁 Estructura del Proyecto
 
 ```
-src/
-├── components/    # Componentes reutilizables
-├── CV/           # Componentes del CV
-├── portfolio/    # Componentes del portafolio
-├── router/       # Configuración de rutas
-├── data/         # Datos del CV y portafolio
-├── types/        # Interfaces y tipos de TypeScript
-├── styles/       # Estilos globales y temas
+.
+├── public/         # Archivos estáticos
+├── src/           # Código fuente
+│   ├── components/  # Componentes reutilizables
+│   ├── CV/         # Componentes del CV
+│   ├── portfolio/  # Componentes del portafolio
+│   ├── router/     # Configuración de rutas
+│   ├── data/       # Datos del CV y portafolio
+│   ├── types/      # Interfaces y tipos de TypeScript
+│   └── styles/     # Estilos globales y temas
+├── components.json # Configuración de componentes
+├── vite.config.ts # Configuración de Vite
+├── tsconfig.json  # Configuración de TypeScript
+└── package.json   # Dependencias y scripts
 ```
 
 ## 📄 Licencia
@@ -95,4 +108,3 @@ Link del Proyecto: [https://github.com/tu-usuario/cv-portfolio-app](https://gith
 
 ---
 ⌨️ con ❤️ por David Gustavo Ventura Villesca
-

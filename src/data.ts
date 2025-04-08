@@ -207,110 +207,114 @@ export const data = {
         "Manejar la presión, aceptar críticas y comunicarse bien en entornos de trabajo.",
     },
   ],
-  courses: [
-    {
-      alt: "JavaScript - Moderno",
-      path: "../../../assets/img/courses/javaScriptModerno.jpg",
-      link: "https://www.udemy.com/course/javascript-fernando-herrera/",
-    },
-    {
-      alt: "Nest - Backend",
-      path: "../../../assets/img/courses/nestBackend.jpg",
-      link: "https://www.udemy.com/course/nest-framework/",
-    },
-    {
-      alt: "Nodejs",
-      path: "../../../assets/img/courses/nodeJs.jpg",
-      link: "https://www.udemy.com/course/node-de-cero-a-experto/",
-    },
-    {
-      alt: "PostgreSQL",
-      path: "../../../assets/img/courses/postgreSQL.jpg",
-      link: "https://www.udemy.com/course/sql-de-cero/",
-    },
-    {
-      alt: "React cero a experto",
-      path: "../../../assets/img/courses/reactCeroExperto.jpg",
-      link: "https://www.udemy.com/course/react-cero-experto/",
-    },
-    {
-      alt: "React Pro",
-      path: "../../../assets/img/courses/reactPro.jpg",
-      link: "https://www.udemy.com/course/react-pro/",
-    },
-    {
-      alt: "Master en CSS",
-      path: "../../../assets/img/courses/masterCSS.jpg",
-      link: "https://www.udemy.com/course/master-en-css-responsive-sass-flexbox-grid-y-boostrap-4/",
-    },
-    {
-      alt: "Master en JavaScript",
-      path: "../../../assets/img/courses/masterJs.jpg",
-      link: "https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/",
-    },
-    {
-      alt: "Master en PHP",
-      path: "../../../assets/img/courses/masterPHP.jpg",
-      link: "https://www.udemy.com/course/master-en-php-sql-poo-mvc-laravel-symfony-4-wordpress/",
-    },
-    {
-      alt: "Master en Python",
-      path: "../../../assets/img/courses/masterPython.jpg",
-      link: "https://www.udemy.com/course/master-en-python-aprender-python-django-flask-y-tkinter/",
-    },
-    {
-      alt: "Aprender a aprender tecnicas para tu autodesarrollo",
-      path: "../../../assets/img/courses/aprenderAaprender.jpg",
-    },
-    {
-      alt: "ChatGPT optimizando la calidad de los resultados",
-      path: "../../../assets/img/courses/chatGPT.jpg",
-    },
-    {
-      alt: "Foco Enfocarse trae más resultados para el día a día",
-      path: "../../../assets/img/courses/foco.jpg",
-    },
-    {
-      alt: "Git y GitHub repositorio, commit y versiones",
-      path: "../../../assets/img/courses/gitGithub.jpg",
-    },
-    {
-      alt: "Hábitos Ser productivo para cumplir sus metas personales",
-      path: "../../../assets/img/courses/habitos.jpg",
-    },
-    {
-      alt: "HTML y CSS ambientes de desarrollo, estructura de archivos y tags",
-      path: "../../../assets/img/courses/htmlCss1.jpg",
-    },
-    {
-      alt: "HTML y CSS Clases, Posicionamiento y Flexbox",
-      path: "../../../assets/img/courses/htmlCss2.jpg",
-    },
-    {
-      alt: "HTML y CSS header, footer y variables CSS",
-      path: "../../../assets/img/courses/htmlCss3.jpg",
-    },
-    {
-      alt: "HTML y CSS trabajando con responsividad y publicación de proyectos",
-      path: "../../../assets/img/courses/htmlCss4.jpg",
-    },
-    {
-      alt: "LinkedIn Como hacer que tu perfil trabaje por ti",
-      path: "../../../assets/img/courses/linkEdin.jpg",
-    },
-    {
-      alt: "Lógica de programación explorar funciones y listas",
-      path: "../../../assets/img/courses/logicaProgramacion1.jpg",
-    },
-    {
-      alt: "Lógica de programación sumérgete en la programación con JavaScript",
-      path: "../../../assets/img/courses/logicaProgramacion2.jpg",
-    },
-    {
-      alt: "Practicando Lógica de Programación Challenge Amigo secreto",
-      path: "../../../assets/img/courses/challengeAmigoSecreto.jpg",
-    },
-  ],
+  courses: {
+    udemy: [
+      {
+        alt: "JavaScript - Moderno",
+        path: "/img/courses/javaScriptModerno.jpg",
+        link: "https://www.udemy.com/course/javascript-fernando-herrera/",
+      },
+      {
+        alt: "Nest - Backend",
+        path: "/img/courses/nestBackend.jpg",
+        link: "https://www.udemy.com/course/nest-framework/",
+      },
+      {
+        alt: "Nodejs",
+        path: "/img/courses/nodeJs.jpg",
+        link: "https://www.udemy.com/course/node-de-cero-a-experto/",
+      },
+      {
+        alt: "PostgreSQL",
+        path: "/img/courses/postgreSQL.jpg",
+        link: "https://www.udemy.com/course/sql-de-cero/",
+      },
+      {
+        alt: "React cero a experto",
+        path: "/img/courses/reactCeroExperto.jpg",
+        link: "https://www.udemy.com/course/react-cero-experto/",
+      },
+      {
+        alt: "React Pro",
+        path: "/img/courses/reactPro.jpg",
+        link: "https://www.udemy.com/course/react-pro/",
+      },
+      {
+        alt: "Master en CSS",
+        path: "/img/courses/masterCSS.jpg",
+        link: "https://www.udemy.com/course/master-en-css-responsive-sass-flexbox-grid-y-boostrap-4/",
+      },
+      {
+        alt: "Master en JavaScript",
+        path: "/img/courses/masterJs.jpg",
+        link: "https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/",
+      },
+      {
+        alt: "Master en PHP",
+        path: "/img/courses/masterPHP.jpg",
+        link: "https://www.udemy.com/course/master-en-php-sql-poo-mvc-laravel-symfony-4-wordpress/",
+      },
+      {
+        alt: "Master en Python",
+        path: "/img/courses/masterPython.jpg",
+        link: "https://www.udemy.com/course/master-en-python-aprender-python-django-flask-y-tkinter/",
+      },
+    ],
+    oracle: [
+      {
+        alt: "Aprender a aprender tecnicas para tu autodesarrollo",
+        path: "/img/courses/aprenderAaprender.jpg",
+      },
+      {
+        alt: "ChatGPT optimizando la calidad de los resultados",
+        path: "/img/courses/chatGPT.jpg",
+      },
+      {
+        alt: "Foco Enfocarse trae más resultados para el día a día",
+        path: "/img/courses/foco.jpg",
+      },
+      {
+        alt: "Git y GitHub repositorio, commit y versiones",
+        path: "/img/courses/gitGithub.jpg",
+      },
+      {
+        alt: "Hábitos Ser productivo para cumplir sus metas personales",
+        path: "/img/courses/habitos.jpg",
+      },
+      {
+        alt: "HTML y CSS ambientes de desarrollo, estructura de archivos y tags",
+        path: "/img/courses/htmlCss1.jpg",
+      },
+      {
+        alt: "HTML y CSS Clases, Posicionamiento y Flexbox",
+        path: "/img/courses/htmlCss2.jpg",
+      },
+      {
+        alt: "HTML y CSS header, footer y variables CSS",
+        path: "/img/courses/htmlCss3.jpg",
+      },
+      {
+        alt: "HTML y CSS trabajando con responsividad y publicación de proyectos",
+        path: "/img/courses/htmlCss4.jpg",
+      },
+      {
+        alt: "LinkedIn Como hacer que tu perfil trabaje por ti",
+        path: "/img/courses/linkEdin.jpg",
+      },
+      {
+        alt: "Lógica de programación explorar funciones y listas",
+        path: "/img/courses/logicaProgramacion1.jpg",
+      },
+      {
+        alt: "Lógica de programación sumérgete en la programación con JavaScript",
+        path: "/img/courses/logicaProgramacion2.jpg",
+      },
+      {
+        alt: "Practicando Lógica de Programación Challenge Amigo secreto",
+        path: "/img/courses/challengeAmigoSecreto.jpg",
+      },
+    ],
+  },
   experiences: [
     {
       title: "Análisis y desarrollo",
@@ -371,6 +375,23 @@ export const data = {
       title: "Control de versiones y repositorios",
       description:
         "Manejo de Git para el control de versiones, gestionando repositorios en GitHub y Bitbucket para la colaboración en equipo y el seguimiento de cambios en el código.",
+    },
+  ],
+  proyects: [
+    {
+      alt: "Proyecto 1",
+      path: "/img/proyectsDiagrams/SistemaDeActivoFijo.png",
+      name: "Sistema de activo fijo",
+    },
+    {
+      alt: "Proyecto 2",
+      path: "/img/proyectsDiagrams/SistemaRH.png",
+      name: "Sistema de Recursos Humanos",
+    },
+    {
+      alt: "Proyecto 3",
+      path: "/img/proyectsDiagrams/SistemaTransacciones.png",
+      name: "Sistema de Transacciones",
     },
   ],
 };
