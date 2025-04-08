@@ -11,7 +11,7 @@ export const data = {
       {
         p1: "Soy un desarrollador apasionado por el desarrollo web enfocado en el Frontend",
         p2: "Me concidero una persona con mentalidad analítica y enfocada en la resolución de problemas. Destacando por mi capacidad de adaptación, toma de decisiones proactiva y confianza en mi trabajo, tanto de manera individual como en equipo.",
-        p3: "Me defino como una persona disciplinada, creativa, responsable y honesta, siempre en busca de mejorar mis habilidades y aprender nuevas tecnologías."
+        p3: "Me defino como una persona disciplinada, creativa, responsable y honesta, siempre en busca de mejorar mis habilidades y aprender nuevas tecnologías.",
       },
     ],
     languages: "Inglés - B2",
@@ -309,6 +309,68 @@ export const data = {
     {
       alt: "Practicando Lógica de Programación Challenge Amigo secreto",
       path: "../../../assets/img/courses/challengeAmigoSecreto.jpg",
+    },
+  ],
+  experiences: [
+    {
+      title: "Análisis y desarrollo",
+      description:
+        "Diseño, desarrollo y optimización de aplicaciones web en base a los requisitos del usuario final, asegurando alto rendimiento y usabilidad.",
+    },
+    {
+      title: "Desarrollo en Angular",
+      description:
+        "Desarollo, mantenimiento y mejora de aplicaciones en Angular, implementando nuevas funcionalidades basadas en historias de usuario y garantizando un código limpio y eficiente.",
+    },
+    {
+      title: "Integración con APIs",
+      description:
+        "Consumo y gestión de APIs RESTful desarrolladas en Spring Boot para conectar el Front End con servicios de Back End.",
+    },
+    {
+      title: "Liderazgo técnico",
+      description:
+        "Coordinación del equipo Front End para mejorar prácticas de desarrollo en aplicaciones internas y externas, optimizando rendimiento y escalabilidad.",
+    },
+    {
+      title: "Arquitectura y servidores",
+      description:
+        "Configuración y gestión de servidores de aplicaciones como WebLogic, WebSphere y JBoss. Implementación de contenedores Docker para bases de datos SQL.",
+    },
+    {
+      title: "Desarrollo multiplataforma",
+      description:
+        "Creación de una aplicación interna en Angular y Electron.js para la generación de documentos estáticos (.txt) en Windows y macOS.",
+    },
+    {
+      title: "Diseño UX/UI",
+      description:
+        "Creación de plantillas y mockups en Figma para mejorar la experiencia del usuario, haciéndolas más intuitivas y accesibles.",
+    },
+    {
+      title: "Automatización y CRM",
+      description:
+        "Desarrollo de scripts en Deluge para la personalización y automatización de Zoho People y Zoho CRM.",
+    },
+    {
+      title: "Pruebas y documentación",
+      description:
+        "Apoyo en la ejecución de pruebas unitarias y de seguridad, además de la documentación técnica para nuevas versiones de aplicaciones.",
+    },
+    {
+      title: "Optimización y mejora continua",
+      description:
+        "Investigación y análisis de nuevas arquitecturas para mejorar el rendimiento y escalabilidad de las aplicaciones.",
+    },
+    {
+      title: "Metodologías ágiles",
+      description:
+        "Trabajo bajo SCRUM, participando en sprints y asegurando entregas iterativas y de calidad.",
+    },
+    {
+      title: "Control de versiones y repositorios",
+      description:
+        "Manejo de Git para el control de versiones, gestionando repositorios en GitHub y Bitbucket para la colaboración en equipo y el seguimiento de cambios en el código.",
     },
   ],
 };

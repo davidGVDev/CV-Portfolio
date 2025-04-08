@@ -1,18 +1,20 @@
-import { DotPattern } from "@/components/magicui/dot-pattern";
-import { cn } from "@/lib/utils";
 import { data } from "../../data";
 import { ArrowFatLinesRight, ArrowFatLinesLeft } from "@phosphor-icons/react";
+import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 
 export const SkillsComponentP = () => {
   const technicalSkills = data.technicalSkills;
   const softSkills = data.softSkills;
   return (
     <>
-      <DotPattern
-        className={cn(
-          "[mask-image:radial-gradient(1000px_circle_at_center,white,transparent)]",
-          "dot-pattern"
-        )}
+      
+      <FlickeringGrid
+        className="flickering-grid"
+        squareSize={4}
+        gridGap={9}
+        color="#eee"
+        maxOpacity={0.8}
+        flickerChance={0.2}
       />
       <div className="skills-container-p">
         <div className="skills-grid">
