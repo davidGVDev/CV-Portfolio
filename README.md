@@ -15,6 +15,7 @@ Una aplicación moderna de portafolio personal construida con React y TypeScript
 - 🎭 Phosphor Icons
 - 🌈 Class Variance Authority
 - 🎯 Motion
+- ✨ Magic UI Components
 
 ## 🛠️ Requisitos Previos
 
@@ -66,6 +67,15 @@ yarn dev
 - 🔄 Navegación SPA con React Router v7
 - 📄 CV interactivo con diseño moderno
 - 🚀 Optimizado para rendimiento y SEO
+- ✨ Efectos visuales avanzados con Magic UI Components
+- 🎨 Gradientes animados y efectos de hover
+- 📱 Menú móvil responsivo con animaciones
+- 🎯 Carrusel de proyectos con indicadores y controles
+- 🌟 Efectos de texto aurora y animaciones de escritura
+- 📊 Visualización de habilidades técnicas y blandas
+- 📚 Sección de cursos y certificaciones
+- 💼 Experiencia laboral detallada
+- 🎨 Diseño minimalista y moderno
 
 ## 📁 Estructura del Proyecto
 

@@ -1,5 +1,4 @@
 import { data } from "../../data";
-import { ArrowFatLinesRight, ArrowFatLinesLeft } from "@phosphor-icons/react";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 
 export const SkillsComponentP = () => {
@@ -7,7 +6,6 @@ export const SkillsComponentP = () => {
   const softSkills = data.softSkills;
   return (
     <>
-      
       <FlickeringGrid
         className="flickering-grid"
         squareSize={4}
@@ -17,11 +15,8 @@ export const SkillsComponentP = () => {
         flickerChance={0.2}
       />
       <div className="skills-container-p">
-        <div className="skills-grid">
-          <div className="skill-box technical-skills">Technical Skills
-          <ArrowFatLinesRight size={60} />
-          </div>
-          
+        <div className="skills-container-technical">
+          <h3>Habilidades Técnicas</h3>
           <div className="technical-skills-grid">
             {technicalSkills.map((skill) => (
               <div className="skill-item" key={skill.name}>
@@ -30,16 +25,15 @@ export const SkillsComponentP = () => {
               </div>
             ))}
           </div>
-          <div className="soft-skills-grid">
+        </div>
+        <div className="skills-container-soft">
+          <h3>Habilidades Blandas</h3>
+          <div className="skills-grid">
             {softSkills.map((skill) => (
-              <div key={skill.name} className="skill-item soft-skills-name">
+              <div key={skill.name} className="soft-skills-name">
                 {skill.name}
               </div>
             ))}
-          </div>
-          <div className="skill-box soft-skills">
-            <ArrowFatLinesLeft size={60} />
-            Soft Skills
           </div>
         </div>
       </div>
