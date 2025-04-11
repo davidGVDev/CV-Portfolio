@@ -15,7 +15,7 @@ export const SkillsComponentP = () => {
         flickerChance={0.2}
       />
       <div className="skills-container-p">
-        <div className="skills-container-technical">
+        <div className="skills-container-technical animate__animated animate__bounceInDown animate__fast">
           <h3>Habilidades Técnicas</h3>
           <div className="technical-skills-grid">
             {technicalSkills.map((skill) => (
@@ -26,7 +26,7 @@ export const SkillsComponentP = () => {
             ))}
           </div>
         </div>
-        <div className="skills-container-soft">
+        <div className="skills-container-soft animate__animated animate__bounceInDown animate__fast">
           <h3>Habilidades Blandas</h3>
           <div className="skills-grid">
             {softSkills.map((skill) => (

@@ -14,7 +14,7 @@ export const ExperienceComponentP = () => {
         maxOpacity={0.8}
         flickerChance={0.2}
       />
-      <div className="experience-container">
+      <div className="experience-container animate__animated animate__fadeInUp">
         {experiences.map((experience, index) => (
           <div className="experience-item" key={index}>
             <div className="experience-item-header">

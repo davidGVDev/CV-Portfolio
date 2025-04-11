@@ -33,7 +33,7 @@ export const ProyectsComponentP = () => {
         flickerChance={0.2}
       />
 
-      <div className="proyects-container">
+      <div className="proyects-container animate__animated animate__fadeInDown">
         <Carousel setApi={setApi}>
           <CarouselContent>
             {data.proyects.map((proyect) => (
