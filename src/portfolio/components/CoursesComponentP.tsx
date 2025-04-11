@@ -30,7 +30,7 @@ export const CoursesComponentP = () => {
         flickerChance={0.2}
       />
       <div className="courses-container">
-        <div className="courses-container-udemy">
+        <div className="courses-container-udemy animate__animated animate__fadeInUp animate__fast">
           <h3>Udemy</h3>
           <div className="courses-list">
             {udemy.map((course, index) => (
@@ -45,7 +45,7 @@ export const CoursesComponentP = () => {
             ))}
           </div>
         </div>
-        <div className="courses-container-oracle">
+        <div className="courses-container-oracle animate__animated animate__fadeInUp animate__fast">
           <h3>Oracle one / Alura LATAM</h3>
           <div className="courses-list">
             {oracle.map((course, index) => (

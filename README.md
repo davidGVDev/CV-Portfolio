@@ -61,11 +61,9 @@ yarn dev
 - 🎠 Carruseles suaves con Embla Carousel
 - 🎨 Iconografía moderna con Lucide y Phosphor Icons
 - 🔍 TypeScript para código seguro y autocompletado
-- 🎯 Animaciones fluidas con Motion
-- 🎨 Variantes de componentes con Class Variance Authority
+- 🎯 Animaciones fluidas con Animate.css
 - 📦 ESLint y Prettier para código limpio
 - 🔄 Navegación SPA con React Router v7
-- 📄 CV interactivo con diseño moderno
 - 🚀 Optimizado para rendimiento y SEO
 - ✨ Efectos visuales avanzados con Magic UI Components
 - 🎨 Gradientes animados y efectos de hover

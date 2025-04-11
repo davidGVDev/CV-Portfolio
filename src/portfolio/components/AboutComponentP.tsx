@@ -18,7 +18,7 @@ export const AboutComponentP = () => {
         flickerChance={0.2}
       />
       <div className="about-container-p">
-        <div className="about-content-p">
+        <div className="about-content-p animate__animated animate__fadeInLeft">
           <p className="about-title-p">
             <span className="about-title-p-span">Hola!!</span> <br /> Soy {name}
           </p>
@@ -31,7 +31,7 @@ export const AboutComponentP = () => {
             </TypingAnimation>
           </p>
         </div>
-        <div className="about-description-p">
+        <div className="about-description-p animate__animated animate__fadeInRight">
           <p className="about-me-description-p">Acerca de mí</p>
           <p className="about-description-title-p">{description[0].p1}</p>
           <br />
