@@ -134,6 +134,21 @@ export const data = {
       name: "Redux",
     },
     {
+      alt: "tailwind",
+      path: "/img/logos/tailwindCss.png",
+      name: "Tailwind",
+    },
+    {
+      alt: "shadcn",
+      path: "/img/logos/shadcnUi.png",
+      name: "Shadcn",
+    },
+    {
+      alt: "nestjs",
+      path: "/img/logos/nestJs.png",
+      name: "Nestjs",
+    },
+    {
       alt: "oracle-weblogic",
       path: "/img/logos/oracle-weblogic.png",
       name: "Oracle WebLogic",
