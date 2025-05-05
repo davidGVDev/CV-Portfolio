@@ -27,7 +27,7 @@ export const AboutComponentP = () => {
               Desarrollador Web
             </AuroraText>
             <TypingAnimation className="italic underline" duration={100}>
-              Front-end developer
+              Front-end & Back-end con Nodejs & Nestjs
             </TypingAnimation>
           </p>
         </div>

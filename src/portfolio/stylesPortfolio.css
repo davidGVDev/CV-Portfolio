@@ -35,6 +35,24 @@
     background-color: #f0f0f0;
 }
 
+.cv-button {
+    width: 100px;
+    background-color: black;
+    color: white !important;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: var(--font-tektur);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.cv-button:hover {
+    background-color: #f0f0f0;
+    color: black !important;
+}
+
+
 /* Botón del menú hamburguesa */
 .menu-button {
     display: none;

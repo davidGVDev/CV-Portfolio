@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     background-color: #eeee;
+    padding: 20px;
 }
 
 .cv-page {
@@ -13,6 +14,7 @@
     margin: 40px 0 40px 0;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow: visible;
 }
 
 /* About */
@@ -25,6 +27,7 @@
     font-size: 2rem;
     font-weight: 100;
     border-bottom: 1px solid black;
+    height: 70px;
 }
 
 .about-contact {
@@ -35,9 +38,10 @@
     padding: 0;
     text-align: center;
     list-style: none;
-    gap: 20px;
+    gap: 15px;
     font-family: var(--font-reem);
     font-size: 1rem;
+    flex-wrap: wrap;
 }
 
 .about-contact a {
@@ -81,6 +85,7 @@
     margin: 10px 0;
     padding: 0;
     border-bottom: 1px solid black;
+    height: 70px;
 }
 
 /* Eductation */
@@ -93,6 +98,7 @@
     margin: 10px 0;
     padding: 0;
     border-bottom: 1px solid black;
+    height: 70px;
 }
 
 .education-list {
@@ -144,6 +150,7 @@
     margin: 10px 0;
     padding: 0;
     border-bottom: 1px solid black;
+    height: 70px;
 }
 
 .experience-data {
@@ -206,6 +213,7 @@
     margin: 10px 0;
     padding: 0;
     border-bottom: 1px solid black;
+    height: 70px;
 }
 
 .technical-skills-container {
@@ -246,6 +254,7 @@
     margin: 10px 0;
     padding: 0;
     border-bottom: 1px solid black;
+    height: 70px;
 }
 
 .soft-skills-container {
@@ -265,4 +274,157 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.cv-button-pdf {
+    position: fixed;
+    top: 65px;
+    left: 50px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.cv-button-pdf:hover {
+    transform: scale(1.1);
+    background-color: #ff0000;
+}
+
+.cv-button-back {
+    position: fixed;
+    top: 145px;
+    left: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.cv-button-back:hover {
+    transform: scale(1.1);
+    background-color: #333;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .cv-page {
+        width: 70%;
+    }
+
+    .technical-skills-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cv-page {
+        width: 85%;
+    }
+
+    .technical-skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .soft-skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .education-list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cv-page {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .about-name {
+        font-size: 1.5rem;
+        height: 50px;
+    }
+
+    .about-description-title,
+    .education-title,
+    .experience-title,
+    .technical-skills-title,
+    .soft-skills-title {
+        font-size: 1.2rem;
+        height: 50px;
+    }
+
+    .technical-skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .soft-skills-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .experience-responsibilities {
+        padding: 0 0 0 20px;
+    }
+
+    .cv-button-pdf,
+    .cv-button-back {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cv-button-pdf {
+        top: 20px;
+        left: 20px;
+    }
+
+    .cv-button-back {
+        top: 80px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cv-page {
+        width: 100%;
+        margin: 20px 0;
+        padding: 15px;
+    }
+
+    .about-contact {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .technical-skills-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .experience-data {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experience-position-data {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
