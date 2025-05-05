@@ -13,13 +13,18 @@ export const NavBar = () => {
 
   return (
     <div className="navbar">
+      {/* Area de links */}
       <div className="navbar-links">
         <Link to="/portfolio/about">Acerca de mi</Link>
         <Link to="/portfolio/skills">Habilidades</Link>
         <Link to="/portfolio/experience">Experiencia</Link>
         <Link to="/portfolio/courses">Cursos</Link>
         <Link to="/portfolio/proyects">Proyectos</Link>
+        <Link className="cv-button text-white" to="/cv">
+          Ver CV
+        </Link>
       </div>
+      {/* Area de responsive */}
       <button className="menu-button" onClick={toggleMenu}>
         <TextAlignJustify size={32} />
       </button>
@@ -38,6 +43,9 @@ export const NavBar = () => {
         </Link>
         <Link to="/portfolio/proyects" onClick={toggleMenu}>
           Proyectos
+        </Link>
+        <Link className="cv-button text-white" to="/cv" onClick={toggleMenu}>
+          Ver CV
         </Link>
       </div>
     </div>

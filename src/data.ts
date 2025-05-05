@@ -9,7 +9,7 @@ export const data = {
     github: "https://github.com/davidGVDev",
     description: [
       {
-        p1: "Soy un desarrollador apasionado por el desarrollo web enfocado en el Frontend",
+        p1: "Soy un desarrollador apasionado por el desarrollo web enfocado en el Frontend y con conocimientos en Backend con Nodejs y Nestjs.",
         p2: "Me concidero una persona con mentalidad analítica y enfocada en la resolución de problemas. Destacando por mi capacidad de adaptación, toma de decisiones proactiva y confianza en mi trabajo, tanto de manera individual como en equipo.",
         p3: "Me defino como una persona disciplinada, creativa, responsable y honesta, siempre en busca de mejorar mis habilidades y aprender nuevas tecnologías.",
       },
@@ -337,14 +337,14 @@ export const data = {
         "Diseño, desarrollo y optimización de aplicaciones web en base a los requisitos del usuario final, asegurando alto rendimiento y usabilidad.",
     },
     {
-      title: "Desarrollo en Angular",
+      title: "Desarrollo en Angular y React",
       description:
-        "Desarollo, mantenimiento y mejora de aplicaciones en Angular, implementando nuevas funcionalidades basadas en historias de usuario y garantizando un código limpio y eficiente.",
+        "Desarollo, mantenimiento y mejora de aplicaciones en Angular y creación de aplicaciones en React, implementando nuevas funcionalidades basadas en historias de usuario.",
     },
     {
       title: "Integración con APIs",
       description:
-        "Consumo y gestión de APIs RESTful desarrolladas en Spring Boot para conectar el Front End con servicios de Back End.",
+        "Consumo y gestión de APIs RESTful desarrolladas en Spring Boot y Nestjs para conectar el Front End con servicios de Back End.",
     },
     {
       title: "Liderazgo técnico",

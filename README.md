@@ -75,6 +75,47 @@ yarn dev
 - 💼 Experiencia laboral detallada
 - 🎨 Diseño minimalista y moderno
 
+## 📄 Funcionalidad del CV
+
+La página del CV incluye las siguientes características y secciones:
+
+### 👤 Sección Acerca de
+- Nombre y título profesional
+- Información de contacto (email, teléfono, país)
+- Enlaces a perfiles profesionales (GitHub, LinkedIn)
+- Descripción personal detallada
+- Idiomas dominados
+
+### 🎓 Educación
+- Institución educativa
+- Título o grado obtenido
+- Período de estudio
+- Diseño limpio y organizado
+
+### 💼 Experiencia Laboral
+- Empresa y período de trabajo
+- Cargo desempeñado
+- Lista detallada de responsabilidades
+- Formato cronológico
+
+### 🛠️ Habilidades Técnicas
+- Visualización en grid de habilidades
+- Iconos representativos para cada habilidad
+- Diseño visual atractivo con tarjetas
+- Categorización clara
+
+### 🤝 Habilidades Blandas
+- Presentación en grid de habilidades interpersonales
+- Diseño minimalista con tarjetas
+- Fácil lectura y comprensión
+
+### 📱 Características Adicionales
+- Botón para descargar CV en formato PDF
+- Botón de retorno a la página principal
+- Diseño responsivo para todos los dispositivos
+- Animaciones suaves en la interacción
+- Estilos personalizados con CSS moderno
+
 ## 📁 Estructura del Proyecto
 
 ```
