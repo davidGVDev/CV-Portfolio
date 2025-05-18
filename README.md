@@ -110,7 +110,6 @@ La página del CV incluye las siguientes características y secciones:
 - Fácil lectura y comprensión
 
 ### 📱 Características Adicionales
-- Botón para descargar CV en formato PDF
 - Botón de retorno a la página principal
 - Diseño responsivo para todos los dispositivos
 - Animaciones suaves en la interacción
