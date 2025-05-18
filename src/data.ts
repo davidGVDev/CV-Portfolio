@@ -168,6 +168,11 @@ export const data = {
       path: "/img/logos/vscode.png",
       name: "VSCode",
     },
+    {
+      alt: "Vite",
+      path: "/img/logos/vite.png",
+      name: "Vite",
+    },
   ],
   softSkills: [
     {
@@ -407,6 +412,11 @@ export const data = {
       alt: "Proyecto 3",
       path: "/img/proyectsDiagrams/SistemaTransacciones.png",
       name: "Sistema de Transacciones",
+    },
+    {
+      alt: "Proyecto 4",
+      path: "/img/proyectsDiagrams/cocktailsApp.png",
+      name: "Cocktails App",
     },
   ],
 };
