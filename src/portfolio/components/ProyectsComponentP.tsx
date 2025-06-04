@@ -44,7 +44,7 @@ export const ProyectsComponentP = () => {
                   </div>
                   <img
                     className="proyect-image"
-                    src={proyect.path}
+                    src={import.meta.env.BASE_URL + proyect.path}
                     alt={proyect.alt}
                   />
                 </div>

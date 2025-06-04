@@ -14,7 +14,7 @@ export const TechnicalSkillsComponente = ({
         {technicalSkills.map((skill) => (
           <div key={skill.name} className="technical-skill">
             <div className="technical-skill-icon">
-              <img src={skill.path} alt={skill.name} />
+              <img src={import.meta.env.BASE_URL + skill.path} alt={skill.name} />
             </div>
             <span className="technical-skill-name">{skill.name}</span>
           </div>

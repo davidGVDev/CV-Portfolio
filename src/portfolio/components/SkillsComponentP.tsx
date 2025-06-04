@@ -20,7 +20,7 @@ export const SkillsComponentP = () => {
           <div className="technical-skills-grid">
             {technicalSkills.map((skill) => (
               <div className="skill-item animate__animated animate__backInLeft" key={skill.name}>
-                <img src={skill.path} alt={skill.alt} />
+                <img src={import.meta.env.BASE_URL + skill.path} alt={skill.alt} />
                 <div className="skill-item-name">{skill.name}</div>
               </div>
             ))}

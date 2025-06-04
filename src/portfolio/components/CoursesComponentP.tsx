@@ -39,7 +39,7 @@ export const CoursesComponentP = () => {
                 className="course-item"
                 onClick={() => handleCourseClick(course)}
               >
-                <img src={course.path} alt={course.alt} />
+                <img src={import.meta.env.BASE_URL + course.path} alt={course.alt} />
                 <span>{course.alt}</span>
               </div>
             ))}
@@ -54,7 +54,7 @@ export const CoursesComponentP = () => {
                 className="course-item"
                 onClick={() => handleCourseClick(course)}
               >
-                <img src={course.path} alt={course.alt} />
+                <img src={import.meta.env.BASE_URL + course.path} alt={course.alt} />
                 <span>{course.alt}</span>
               </div>
             ))}
