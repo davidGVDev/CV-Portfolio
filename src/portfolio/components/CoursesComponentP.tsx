@@ -46,7 +46,7 @@ export const CoursesComponentP = () => {
           </div>
         </div>
         <div className="courses-container-oracle animate__animated animate__fadeInUp animate__fast">
-          <h3>Oracle one / Alura LATAM</h3>
+          <h3>Oracle one - Alura Latam</h3>
           <div className="courses-list">
             {oracle.map((course, index) => (
               <div
